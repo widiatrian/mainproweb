@@ -1,0 +1,74 @@
+/* Pengaturan Dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #ffb2fe;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #a9056a;
+    font-size: 28px;
+}
+
+/* Layout Kartu (Grid) */
+.card-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap; /* Supaya responsif di HP */
+}
+
+/* Desain Kartu */
+.card {
+    background-color: #fedcfc;
+    border-radius: 12px;
+    padding: 30px 20px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.card h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #e53da5;
+}
+
+.card p {
+    font-size: 14px;
+    color: #8b4862;
+    margin-bottom: 25px;
+}
+
+/* Desain Tombol Buka */
+.btn-buka {
+    display: inline-block;
+    background-color: #a32f76;
+    color: white;
+    text-decoration: none;
+    padding: 8px 24px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+
+.btn-buka:hover {
+    background-color: #722143;
+}
